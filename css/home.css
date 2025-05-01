@@ -23,7 +23,9 @@
     position: fixed;
     width: 100%;
   }
-  
+  .nav-section a:hover{
+    color: #d6004c;
+  }
 .nav-bar a{
     text-decoration: none;   
 }
@@ -33,10 +35,11 @@ a{
 }
 .support-btn button a{
     color: #FFFFFF;
+    font-weight: bold;
 }
-.section{
+.nav-section{
     color: #333333;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -125,14 +128,14 @@ a{
     align-items: center;
     gap: 15px;
   }
-  .sec-section {
+  .nav-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
     margin-left: 70px;
   }
-
+  
   .savings {
     flex: 1;
   }
@@ -165,8 +168,12 @@ a{
   }
 
   .badges img {
-    height: 300px;
-    width: 450px;
+    height: 290px;
+    width: 400px;
+  }
+  .handshake img{
+    height: 450px;
+    width: 500px;
   }
   .section {
     display: flex;
@@ -177,22 +184,27 @@ a{
   }
 
   .section img {
-    max-width: 100%;
-    height: 350px;
-    width: 550px;
+    
+    height: 450px;
+    width: 500px;
   }
-
+  .art-loan{
+    border: #F7941F solid 1px;
+  }
+  .art-loan:hover{
+    border: #d6004c solid 1px;
+  }
   .content {
-    max-width: 550px;
+    width: 570px;
   }
 
-  h1, h2 {
-    font-size: 2rem;
+  .content h2 {
+    font-size: 50px;
     margin-bottom: 20px;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 15px;
     
     margin-bottom: 20px;
   }
@@ -226,7 +238,7 @@ a{
     }
   }
   .background-1{
-    background-image: url(./images/asset\ 27.svg);
+    background-image: url(../images/asset\ 27.svg);
     background-repeat: no-repeat;
     padding-top: 250px;
     height: 350px;
@@ -241,11 +253,12 @@ a{
     margin: 50px;
   }
   .service{
-    font-size: 30px;
+    font-size: 25px;
     padding: 40px;
+    font-weight: bold;
   }
   .background-2{
-    background-image: url(./images/asset\ 28.svg);
+    background-image: url(../images/asset\ 28.svg);
     background-repeat: no-repeat;
     padding-top: 250px;
     height: 350px;
@@ -258,7 +271,7 @@ a{
     gap: 50px;
   }
   .background-3{
-    background-image: url(./images/asset\ 29.svg);
+    background-image: url(../images/asset\ 29.svg);
     background-repeat: no-repeat;
     padding-top: 250px;
     height: 350px;
@@ -268,13 +281,21 @@ a{
     gap: 50px;
   }
   .background-4{
-    background-image: url(./images/asset\ 30.svg);
+    background-image: url(../images/asset\ 30.svg);
     background-repeat: no-repeat;
     padding-top: 250px;
     height: 350px;
     width: 400px;
     border-radius: 20px;
   }
+  @media only screen and (max-width: 1000px){
+    .flex-tg{
+        display: grid;
+        gap: 20px;
+        justify-content: left;
+        margin-inline: 50px;
+      }
+    }
   .service a{
     font-size: 15px;
     font-weight: bold;
@@ -312,7 +333,166 @@ a{
     display: flex;
     justify-content: space-between;
   }
+  .mask input{
+    width: 320px;
+    height: 50px;
+    padding:0  15px;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: solid #939393 1.5px;
+  }
+  .Sign-in{
+    background-color: #f4f7fb;
+    width: 100;
+    height: 450px;
+    margin: 90px 0 0 0px;
+    padding: 30px 0;
+  }
+  .Sign-in p{
+    color: #000000;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .mag{
+    color: #101828;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 50px;
+  }
+  .form-flex{
+    display: flex;
+  }
+  .mask{
+    margin-left: 50px;
+  }
+  .join-btn{
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#E31B54;
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    
+  }
+  .form-img{
+    margin-bottom: 90px;
+     
+  }
+  @media only screen and (max-width: 1000px){
+    .Sign-in{
+        display: grid;
+        gap: 20px;
+        justify-content: left;
+        margin-inline: 50px;
+    }
+  }
+  @media only screen and (max-width: 1000px){
+    .form-img{
+        display: grid;
+        gap: 20px;
+        justify-content: left;
+        margin-inline: 50px;
+    }
+  }
+  body{
+    margin: 0%;
+}
+.Big-footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-block: 30px;
+}
 
+.Big-footer-container2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-inline: 200px;
+    padding-block: 30px;
+}
+.footer-heading{
+    font-size: 18px;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-links{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+    line-height: 21px;
+    font-weight: 400;
+}
+.footer-links-container{
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+.footer-social-media{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.footer-media-links{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: #333333;
+    padding-top: 6px;
+    padding-inline: 5px;
+    border-radius: 50%;
+}
+footer{
+    background-image: url(../images/asset\ 31.svg);
+    
+    
+    
+}
+.big-footer{
+  margin-top: 90px;
+}
+.hr{
+    width: 1000px;
+    align-items: center;
+}
+.footer-p1{
+    width: 600px;
+}
+.footer-p{
+    width: 450px;
+}
+@media only screen and (max-width: 1000px){
+    .Big-footer-container{
+        display: grid;
+        gap: 20px;
+        justify-content: left;
+        margin-inline: 50px;
+    }
+    .Big-footer-container2{
+        display: grid;
+        padding-inline: 10px;
+        justify-content: left;
+        margin: 0%;
+        gap: 0px;
+    }
+    .hr{
+        width: 100px;
+    }
+    .footer-p{
+        width: 100%;
+    }
+    .footer-p1{
+        width: 100%;
+    }
+}
 
    
   

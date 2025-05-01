@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VFD Bank-VBank</title>
     <link rel="stylesheet" href="./css/home.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="nav-bar">
                 <div class="full-logo">
-                    <a href="home.html"><img src="./src/images/asset 0.png" alt=""></a>
+                    <a href="home.html"><img src="./images/asset 0.png" alt=""></a>
                 </div>
-                 <div class="section">
+                 <div class="nav-section">
                      <a href="retail.html">Retail</a>
                      <a href="business.html">Business</a>
                      <a href="open-banking.html">Open Banking</a>
@@ -29,7 +31,7 @@
     </header>
     <section class="hero">
         <div class="hero-text">
-          <h1>Banking that <br>meets you <br>where you <br>are.</h1>
+          <h1>Banking that <br>meets you <br>where you are.</h1>
           <p>We know you’re heading to the future but what <br>if we told you that you can meet us there? <br>You’re just one click away.</p>
           <img class="download-image" src="./images/asset 10.png" alt="">
         </div>
@@ -38,18 +40,20 @@
         </div>
       </section>
       
-       <!-- Section 1 -->
-  <section class="section">
-    <div class="content">
-      <h1>We are tested,<br>approved and trusted.</h1>
-      <p>VFD Microfinance Bank operates under a license from the Central Bank Of Nigeria and we are covered by the Nigeria Deposit Insurance Corporation.</p>
-      <div class="badge">
-        <img src="./images/asset 12.png" alt="CBN NDIC Badge">
-      </div>
-    </div>
-    <img src="./images/asset 23.svg" alt="Handshake">
-  </section>
-
+    <!-- Section 1 -->
+     <section class="section">
+        <div class="content">
+                <h2>We are tested, <br>approved and trusted.</h2>
+                <p>VFD Microfinance Bank operates under a license from the Central Bank Of Nigeria and we are covered by the Nigeria Deposit Insurance Corporation.</p>
+            <div class="badge">
+                <img src="./images/asset 12.png" alt="">
+            </div>
+        </div>
+        <div class="handshake">
+            <img src="./images/asset 23.svg" alt="">
+        </div>
+     </section>
+     
   <!-- Section 2 -->
   <section class="section">
     <div class="content">
@@ -59,6 +63,7 @@
     </div>
     <img src="./images/asset 24.png" alt="Woman Saving">
   </section>
+
     <section class="section">
         <div class="content">
             <h2>Your company is now in good company.</h2>
@@ -72,11 +77,14 @@
   <!-- Section 3 -->
   <section class="section">
     <div class="content">
-      <h2>Explore our Art Based Loan (ABL)</h2>
+      <h2>Explore our Art Based <br>Loan (ABL)</h2>
       <p>In partnership with Artsplit and Anchoria Asset Management, VFD Microfinance Bank offers art-based loans to collectors and corporate clients, so they can access liquidity while keeping the artwork they love.</p>
       <a href="#" class="btn">Learn more</a>
     </div>
-    <img src="./images/asset 26.jpeg" alt="Art Loan">
+    <div class="art-loan">
+        <img src="./images/asset 26.jpeg" alt="Art Loan">
+    </div>
+    
   </section>
   <h2 class="customer">But don’t just take our word for it.</h2>
 <div class="flex-tg">
@@ -135,18 +143,219 @@
             <p>— Samuel Adegbuyi</p>
         </div>
     </div>
-    <h1>The V Mag</h1>
+    <div class="Sign-in">
+        <h2 class="mag">The V Mag</h2>
         <p>Sign up for our quarterly newsletter about our products and <br>partnerships. It’s like the news but we spare you the boring details.</p>
         
-    <div class="">
-        
-        <div>
-            <label class="email">
-                <input type="text" placeholder="Enter your email">
-            </label>
-        </div>
-        <img src="./images/asset 18.svg" alt="">
-    </div>
+        <div class="form-flex">
+            <div class="mask">
+               <label>
+                   <input type="email" placeholder="Enter your email"><br>
+               </label>
+                   <button class="join-btn">Join now</button>
+           </div>
+           
+               <img class="form-img" src="./images/asset 18.svg" alt="">
+       </div>
 
+   </div>
+   <!-- footer 1  -->
+   <footer class="big-footer">
+    <!-- big Container  -->
+    <div class="Big-footer-container">
+        <!-- contaner 1 -->
+        <div class="footer-containers">
+            <!-- footer heading  -->
+            <div>
+                <h1 class="footer-heading">
+                    Our company
+                </h1>    
+            </div>
+            
+            <!-- links  -->
+            <div class="footer-links-container">
+                <a href="" class="footer-links">
+                    About us
+                </a>
+                <a href="" class="footer-links">
+                    Mission and Vision
+                </a>
+                <a href="" class="footer-links">
+                    Career
+                </a>
+                <a href="" class="footer-links">
+                    Leadership
+                </a>
+                <a href="" class="footer-links">
+                    Complaince
+                </a>
+            </div>
+        </div>
+        <!-- container 2  -->
+        <div class="footer-containers">
+            <!-- footer heading  -->
+            <div>
+                <h1 class="footer-heading">
+                    Accounts
+                </h1>    
+            </div>
+            
+            <!-- links  -->
+            <div class="footer-links-container">
+                <a href="" class="footer-links">
+                    Child Account
+                </a>
+                <a href="" class="footer-links">
+                    Target Savings Account
+                </a>
+                <a href="" class="footer-links">
+                    Crew Savings Account
+                </a>
+                <a href="" class="footer-links">
+                    Fixed Deposit Account
+                </a>
+                <a href="" class="footer-links">
+                    Corporate Account
+                </a>
+            </div>
+        </div>
+        <!-- container 3  -->
+        <div class="footer-containers">
+            <!-- footer heading  -->
+            <div>
+                <h1 class="footer-heading">
+                    Channels
+                </h1>    
+            </div>
+            
+            <!-- links  -->
+            <div class="footer-links-container">
+                <a href="" class="footer-links">
+                    Mobile app
+                </a>
+                <a href="" class="footer-links">
+                    WhatApp banking
+                </a>
+                <a href="" class="footer-links">
+                    Debit card
+                </a>
+                <a href="" class="footer-links">
+                    USSD
+                </a>
+                <a href="" class="footer-links">
+                    
+                </a>
+            </div>
+        </div>
+        <!-- container 4  -->
+        <div class="footer-containers">
+            <!-- footer heading  -->
+            <div>
+                <h1 class="footer-heading">
+                    Media
+                </h1>    
+            </div>
+            
+            <!-- links  -->
+            <div class="footer-links-container">
+                <a href="" class="footer-links">
+                    Press
+                </a>
+                <a href="" class="footer-links">
+                    Blog
+                </a>
+                <a href="" class="footer-links">
+                    
+                </a>
+                <a href="" class="footer-links">
+                    
+                </a>
+                <a href="" class="footer-links">
+                    
+                </a>
+            </div>
+        </div>
+        <!-- container 5  -->
+        <div class="footer-containers-5">
+            <h1 class="footer-heading">
+                Connect with us on social media
+            </h1>
+            <!-- links  -->
+            <div class="footer-social-media">
+                <a href="" class="footer-media-links">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="" class="footer-media-links">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="" class="footer-media-links">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="" class="footer-media-links">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="" class="footer-links">
+                    
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <hr class="hr">
+</footer>
+
+<!-- footer 2  -->
+ <footer>
+    <!-- big Container  -->
+    <div class="Big-footer-container2">
+        <!-- contaner 1 -->
+        <div class="footer-containers">
+            <img src="./images/VBANK-TRANSPARENT-02-1-1 (1).svg" alt="">
+        </div>
+        <!-- container 2  -->
+        <div class="footer-containers">
+            <p class="footer-p1">
+                © 2025 VFD Microfinance Bank (RC1209088) All Rights Reserved. All deposits are insured by Nigeria Deposit Insurance Corporation (NDIC). VFD Microfinance Bank is Licensed by The Central Bank of Nigeria. “V” and “VBank” are trademarks of VFD Microfinance bank: Elephant House, 214 Broad Street, Marina, Lagos Nigeria.
+            </p>
+            <!-- policies  -->
+            <div style="font-weight: bold;">
+                <!-- paragraph 1  -->
+                <p class="footer-p">
+                    Privacy Policy |Terms of Use Mobile App Terms of Use | License Agreement | Career | Debit cards terms and conditions
+                </p>
+                <!-- paragraph 2  -->
+                <p class="footer-p">
+                    Copyright Statement |
+                    Disclosure Statement |
+                    Cookie Policy |
+                    Statement Of Commitment To Fair Dealing
+                </p>
+            </div>
+            <!-- link  -->
+            <p>
+                Click on the <b>whistleblower link,</b>  if you need to report a misconduct
+            </p>
+            <!-- image  -->
+             <div>
+                <img src="./assets/Frame-282482.svg" alt="">
+             </div>
+        </div>
+        <!-- container 3  -->
+        <div class="footer-containers">
+            <p>
+                For product inquiries or service issues, email <b style="color: #E31B54;">support@vbank.ng</b>  or call 0201 227 1396.
+            </p>
+            <p>
+                For regulatory concerns, email <b style="color: #E31B54;">compliance@vfd-mfb.com</b>  or call 0201 227 1396.
+            </p>
+            <p>
+                For personal information compromise or unauthorized access/usage of personal information, email <b style="color: #E31B54;">dpo@vfd-mfb.com</b>  or call 0201 227 1396.
+            </p>
+            <p>
+                For fraud related concerns, email <span style="color: #E31B54;">rauddesk@vfd-mfb.com</span> f or call 0201 227 1396.
+            </p>
+        </div>
+    </div>
+ </footer>
 </body>
 </html>
