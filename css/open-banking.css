@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
   }
@@ -24,6 +24,9 @@
     top: 0;
     width: 100%;
     z-index: 1000;
+  }
+   .section a:hover{
+    color: #b8003c;
   }
   
   .nav-bar a{
@@ -58,65 +61,78 @@
   }
   
   body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #fff;
-    color: #1c1c1c;
+    color: #111;
+    padding: 20px;
   }
   
   .container {
-    transition-delay: 3s;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     min-height: 100vh;
-    padding: 0 5%;
-    box-sizing: border-box;
+    gap: 10px;
+    margin-left: 50px;
   }
   
-  .content {
+  .text-section {
     flex: 1;
-    max-width: 50%;
+    padding: 20px;
   }
   
-  .content h1 {
+  .text-section h1 {
     font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    font-weight: 750;
+    
+    margin-bottom: 20px;
   }
   
-  .content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    color: #555;
+  .text-section p {
+    font-size: 0.94rem;
+    color: #444;
+    margin-bottom: 30px;
+    
   }
   
-  .content button {
-    background-color: #e50047;
-    color: white;
+  button {
+    background-color:#e91e63;
+    color: #fff;
     border: none;
-    padding: 20px 15px;
-    width: 300px;
+    padding: 12px 20px;
     border-radius: 6px;
-    cursor: pointer;
     font-weight: bold;
-    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b8003c;
   }
   
   .image-section {
     flex: 1;
-    max-width: 50%;
-    
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
   }
   
   .image-section img {
     max-width: 100%;
-    height: 640px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    height: 520px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 468px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-section, .image-section {
+      padding: 3px;
+    }
   }
   .business-section {
     padding: 60px 20px;
@@ -136,7 +152,6 @@
   }
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: #fff;
     margin: 0;
     padding: 0;
   }
@@ -145,11 +160,12 @@
     transition-delay: 3s;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 40px;
     padding: 60px 20px;
-    width: 980px;
-    height: 790px;
+    width: 930px;
+    height: 820px;
     margin: 0 auto;
+    
   }
   
   .api-card {
@@ -173,6 +189,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     color: #0d1b2a;
+    
   }
   
   .api-content p {
@@ -180,6 +197,7 @@
     font-size: 0.93rem;
     color: #444;
     line-height: 1.6;
+    
   }
   
   
@@ -191,15 +209,15 @@
     background-color: #f4f4f4;
   }
   .api-card.grey:hover{
-    background-color: burlywood;
+    background-color: #c3cac7;
   
   }
   .api-card.peach:hover{
-    background-color: burlywood;
+    background-color: #cdc5c1
   }
   
   /* Responsive grid: 2 cards per row on desktop */
-  @media (min-width: 578px) {
+  @media (min-width: 278px) {
     .api-section {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -246,7 +264,7 @@
   
   .tag {
     background-color: #dfe6ed;
-    padding: 12px 18px;
+    padding: 17px 20px;
     text-align: center;
     border-radius: 6px;
     font-weight: 600;
@@ -275,7 +293,7 @@
   }
   
   /* Responsive: stack on mobile */
-  @media (min-width: 768px) {
+  @media (min-width: 568px) {
     .enable-section {
       flex-direction: row;
       align-items: center;
@@ -303,7 +321,7 @@
     gap: 20px;
   }
   
-  /* Individual logo box */
+  
   .logo-box {
     background-color: #fff;
     border: 1px solid #e5e7eb;
@@ -378,7 +396,7 @@
     background-color: #d70f53;
     color: white;
     padding: 10px 15px;
-    width: 200px;
+    width: 230px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -389,24 +407,14 @@
     background-color: #b10d44;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
     .car {
       flex-direction: column;
     }
     .car img {
-      max-width: 100%;
-    }
-  .big-bag{
-    display: flex;
-    justify-content: space-between;
+      max-width: 95%;
+    } */
+    body{
+      margin: 0%;
+  }
   
-  }
-  .man {
-    grid: 1fr;
-    gap: 10px;
-  }
-  .nas h1{
-    color: #333333;
-    font-weight: bold;
-    font-size: 30px;
-  }
