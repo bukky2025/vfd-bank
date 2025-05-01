@@ -594,12 +594,18 @@ body{
 footer{
   background-image: url(../images/asset\ 31.svg);
   
+  
+  
+}
+.big-footer{
+margin-top: 90px;
 }
 .hr{
   width: 1000px;
+  align-items: center;
 }
 .footer-p1{
-  width: 750px;
+  width: 600px;
 }
 .footer-p{
   width: 450px;
@@ -625,7 +631,7 @@ footer{
       width: 100%;
   }
   .footer-p1{
-      width: 100%;
-    }
+      width: 100%;
+  }
 }
 

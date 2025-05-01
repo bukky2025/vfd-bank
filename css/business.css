@@ -487,33 +487,6 @@ body {
  .article{
   background-color: rgb(238, 238, 238);
  }
- .footer{
-  background-image: url(../images/Pattern-Fotter-1\ \(3\).svg);
- }
- .always img{
-  width: 500px;
- }
- .Box{
-  display: flex;
-  flex-direction: column-reverse;
- }
- .grid{
-  background-image: url(../images/Pattern-Fotter-1\ \(3\).svg);
- }
- .medias{
-  background-image: url(../images/Pattern-Fotter-1\ \(3\).svg);
-  display: grid;
-  grid-template-columns:auto auto auto auto auto ;
-  padding-top: 20px 10px;
- }
- .instagram{
-  background-color: #333333;
-  border-radius: 50px;
-  width: 50px;
- }
- .vfd-logo{
-  display: flex;
- }
  body{
   margin: 0%;
 }
@@ -566,12 +539,18 @@ body {
 footer{
   background-image: url(../images/asset\ 31.svg);
   
+  
+  
+}
+.big-footer{
+margin-top: 90px;
 }
 .hr{
   width: 1000px;
+  align-items: center;
 }
 .footer-p1{
-  width: 750px;
+  width: 600px;
 }
 .footer-p{
   width: 450px;
@@ -597,6 +576,6 @@ footer{
       width: 100%;
   }
   .footer-p1{
-      width: 100%;
-    }
+      width: 100%;
+  }
 }
