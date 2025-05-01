@@ -286,13 +286,13 @@
   }
   
   .enable-image img {
-<<<<<<< HEAD
+
     width: 320px
     /* max-width: 400px;
-=======
+
     width: 400px;
     max-width: 400px;
->>>>>>> 65419838c90cc3c36887c207b66ccbb4fcc060de
+
     border-radius: 12px;
     object-fit: cover; */
   }
@@ -421,7 +421,7 @@
     } */
     body{
       margin: 0%;
-<<<<<<< HEAD
+
   }
 }
 .Big-footer-container{
@@ -514,8 +514,8 @@ margin-top: 90px;
   .footer-p1{
       width: 100%;
   }
-=======
-  }}
+
+  }
   .Big-footer-container{
     display: flex;
     justify-content: center;
@@ -604,5 +604,5 @@ footer{
     .footer-p1{
         width: 100%;
     }
->>>>>>> 65419838c90cc3c36887c207b66ccbb4fcc060de
+
 }
