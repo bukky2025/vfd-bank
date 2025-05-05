@@ -487,9 +487,14 @@ body {
  .article{
   background-color: rgb(238, 238, 238);
  }
- body{
-  margin: 0%;
-}
+ .short img{
+  width: 250px;
+  margin-left: 50px;
+ }
+ .tool h3{
+  font-size:50px;
+  margin-left: 50px;
+ }
 .Big-footer-container{
   display: flex;
   justify-content: center;
