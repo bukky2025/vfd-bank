@@ -504,6 +504,7 @@ footer{
         display: grid;
         padding-inline: 10px;
         justify-content: left;
+        line-height: 2;
         margin: 0%;
         gap: 0px;
         margin-top: ;
